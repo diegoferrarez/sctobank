@@ -1,0 +1,399 @@
+*{
+    box-sizing: border-box;   
+}
+
+body {
+    font-family: Verdana;
+    text-decoration: none;
+}
+
+.marca{
+    text-decoration: none;
+    color:#ffffff;
+}
+
+/*.a {
+    display: block;
+    padding: 8px;
+    background-color: #dddddd;
+    width: auto;
+    text-decoration: none;
+    text-align: center;
+    color: #000000;
+    padding: 14px 16px;
+
+}*/
+
+/*para mostrar qual página ele está
+.a:hover:not(.active) {
+    background-color:#808080;
+}
+
+.active111 {
+    background-color: #a52;
+    display: block;
+    padding: 8px;
+    width: auto;
+    text-decoration: none;
+    text-align: center;
+    color: #000000;
+    padding: 14px 16px;
+}*/
+
+.carousel-inner img {
+    width: 750px;
+    height: 450px;
+    color:#ffffff;
+    background-color: #007bff;
+    box-sizing: border-box;
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin:auto;
+}
+
+.fblk {
+    color: #000000;
+}
+
+p {
+    text-size-adjust: 10px;
+    color: #000000;
+}
+
+.marca {
+    vertical-align: middle;
+    display: inline-block;
+    
+}
+
+.marca1 {
+    vertical-align: middle;
+    display: inline-flex;
+    color:#ffffff;
+    
+}
+
+.marca2 {
+    vertical-align: middle;
+    display: inline-block;
+    float: right;
+    color:#ffffff;
+    
+}
+
+.cntr {
+    text-align:center;
+    font-family: Arial Black;
+    width: 100%;
+    height: 30px;
+    background-color: #E52D2D;
+    
+}
+
+/*usado no cabeçalho*/
+.div1 {
+    text-decoration: none;
+    font-size: 20px;
+    display: inline-block;
+    width: 50%;
+    text-align: left;
+    color:#ffffff;
+    vertical-align: 50%;
+    padding-left: 44px;
+}
+
+.div2 {
+    text-decoration: none;
+    display: inline-block;
+    color:#ffffff;
+    text-align: left;
+    border: 2px solid #007bff!important;
+    border-radius: 5px;
+    padding-right:12px;
+}
+
+/*usado na hospedagem*/
+.div3 {
+    text-decoration: none;
+    font-size: 20px;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    color:#000000;
+    vertical-align: -300%;
+}
+
+.div4 {
+    text-decoration: none;
+    display: inline-block;
+    color:#ffffff;
+    text-align: center;
+    border: 2px solid #cccbca!important;
+    border-radius: 9px;
+    width:250px;
+    height: 355px;
+}
+
+.hhover{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    -webkit-transition: 0.2s;
+    transition: 0.2s;
+}
+
+.hhover:hover {
+    box-shadow: 0 8px 12px 0 #007bff;
+    border: 2px solid #007bff!important;
+    border-radius: 9px;
+    width:250px;
+    height: 353px;
+}
+
+/*usado na passagens*/
+
+.div5 {
+    text-decoration: none;
+    font-size: 20px;
+    display: inline-block;
+    width: 100%;
+    text-align: left;
+    color:#000000;
+    vertical-align: -300%;
+    padding-left: 10px;
+}
+
+.div6 {
+    text-decoration: none;
+    display: inline-block;
+    color:#ffffff;
+    text-align: center;
+    border: 2px solid #cccbca!important;
+    border-radius: 9px;
+    width:250px;
+    height: 355px;
+}
+
+.phover{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    -webkit-transition: 0.2s;
+    transition: 0.2s;
+}
+
+.phover:hover {
+    box-shadow: 0 8px 12px 0 #007bff;
+    border: 2px solid #007bff!important;
+    border-radius: 9px;
+    width:250px;
+    height: 353px;
+}
+
+/*usado no pacote*/
+
+.div7{
+    text-decoration: none;
+    font-size: 20px;
+    display: inline-block;
+    width: 42%;
+    text-align: left;
+    color:#000000;
+    vertical-align: 300%;
+    padding-left: 9px;
+}
+
+.div8 {
+    text-decoration: none;
+    display: inline-block;
+    color:#ffffff;
+    text-align: center;
+    border: 2px solid #E52D2D!important;
+    border-radius: 9px;
+    width:220px;
+    height: 320px;
+}
+
+.pcthover{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    -webkit-transition: 0.2s;
+    transition: 0.2s;
+}
+
+.pcthover:hover {
+    box-shadow: 0 8px 12px 0 #f93208;
+    border: 2px solid #f93208!important;
+    border-radius: 9px;
+    width:220px;
+    height: 316px;
+}
+
+/*USADO NO ALUGUEL DE CARRO*/
+
+.div10 {
+    width:304px;
+    height: 166px;
+   
+}
+
+.lcar {
+    list-style-type: none;
+    border: 0.9px solid #eee;
+    margin: 0;
+    padding: 0;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+}
+
+.lcar:hover {
+    box-shadow: 0 8px 12px 0 rgba(84, 240, 227);
+    border-radius: 3px;
+}
+
+.lcar {
+    background-color: #ffffff;
+    color: #ffffff;
+    border-radius: 3px;
+}
+
+.lcar li {
+    border-bottom: 1px solid #ffffff;
+    border-radius: 3px;
+    padding: 20px;
+    text-align: center;
+}
+
+.lcar {
+    background-color: #eee;
+    border-radius: 3px;
+}
+
+
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 1,
+    'wght' 700,
+    'GRAD' 0,
+    'opsz' 48
+  }
+  
+  #btPrx{
+      vertical-align: 500%;
+      color:#000000;
+      text-decoration: none;
+      size:30px;
+  }
+  
+  #btAtn{
+      vertical-align: 500%;
+      color:#000000;
+      text-decoration: none;
+      size:30px;
+  }
+
+/**/
+
+.psgtitle{
+    text-align: left;
+    padding-left: 10px;
+
+}
+
+.icons {
+    padding-left: 20px;
+    display: block;
+    box-sizing: border-box;
+    font-size: 26px;
+    line-height: 30px;
+    text-decoration: none;
+}
+
+.subicons {
+    padding-left: 20px;
+    font-size: 13px;
+    color:#AFB4B6;    
+    text-decoration: none;
+}
+
+img {
+    border-radius:9px;
+}
+
+.checked {
+    color: orange;
+  }
+
+#overlay {
+    position: fixed;
+    display: none;
+    width: 60%;
+    height: 600%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,1);
+    z-index: 2;
+    cursor: pointer;
+    padding:center;
+  }
+
+  /*usado na tabela de preço dentro do modal*/
+
+  *{
+      box-sizing: border-box;
+  }
+
+
+  .price {
+      list-style-type: none;
+      border: 1px solid #eee;
+      margin: 0;
+      padding: 0;
+      -webkit-transition: 0.3s;
+      transition: 0.3s;
+  }
+
+  .price:hover {
+      box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)
+  }
+
+  .price .header {
+      background-color: #111;
+      color: #ffffff;
+      font-size: 25px;
+  }
+
+  .price li {
+      border-bottom: 1px solid #eee;
+      padding: 20px;
+      text-align: center;
+  }
+
+  .price .grey {
+      background-color: #eee;
+      font-size: 20px;
+  }
+
+  .button {
+      background-color: #04AA6D;
+      border: none;
+      color: #ffffff;
+      padding: 10px 25px;
+      text-align: center;
+      text-decoration: none;
+      font-size: 18px; 
+  }
+
+
+  /* .div9 {
+    text-decoration: none;
+    display: inline-block;
+    color:#ffffff;
+    text-align: center;
+    border: 2px solid #E52D2D!important;
+
+} */
