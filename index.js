@@ -193,4 +193,61 @@
         $("#pwd2").val("");
     });
 
+    //MODAL DE REGISTRO
+
+    //botão de registrar
+    $("#registrar").click(function(){
+        var nome=$("#nameRegistro").val();
+        var sobrenome=$("#lastNameRegistro").val();
+        var datanascimento=$("#nascimentoRegistro").val();
+        var emailDeRegistro=$("#emailRegistro").val();
+        var senhaDeRegistro=$("#senhaRegistro").val();
+        var cfmSenhaRegistro=$("#confirmaSenhaRegistro").val();
+        console.log(nome+" "+sobrenome);
+        if (nome==""){
+            alert("Insira o nome - campo obrigatório");
+            return;
+        }
+        if (sobrenome==""){
+            alert("Insira o sobrenome - campo obrigatório");
+            return;
+        }
+        if (datanascimento==""){
+            alert("Insira a data - campo obrigatório");
+            return;
+        }
+        if (emailDeRegistro==""){
+            alert("Insira o e-mail - campo obrigatório");
+            return;
+        }
+        if (senhaDeRegistro==""){
+            alert("Insira sua senha de no mínimo 12 dígitos - campo obrigatório");
+            return;
+        }
+        alert("Salvo com sucesso");
+        $("#nameRegistro").val("");
+        $("#lastNameRegistro").val("");
+        $("#nascimentoRegistro").val("");
+        $("#emailRegistro").val("");
+        $("#senhaRegistro").val("");
+        $("#confirmaSenhaRegistro").val("");
+    });
+    
+    //botão de corrigir
+    $("#corrigir").click(function(){
+        var nome=$("#nameRegistro").val();
+        var sobrenome=$("#lastNameRegistro").val();
+        var datanascimento=$("#nascimentoRegistro").val();
+        var emailDeRegistro=$("#emailRegistro").val();
+        var senhaDeRegistro=$("#senhaRegistro").val();
+        var cfmSenhaRegistro=$("#confirmaSenhaRegistro").val();
+
+        alert("Os campos de preenchimentos foram limpos");
+        $("#nameRegistro").val("");
+        $("#lastNameRegistro").val("");
+        $("#nascimentoRegistro").val("");
+        $("#emailRegistro").val("");
+        $("#senhaRegistro").val("");
+        $("#confirmaSenhaRegistro").val("");
+    });
 });
