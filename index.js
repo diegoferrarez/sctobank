@@ -202,7 +202,6 @@
         var datanascimento=$("#nascimentoRegistro").val();
         var emailDeRegistro=$("#emailRegistro").val();
         var senhaDeRegistro=$("#senhaRegistro").val();
-        var cfmSenhaRegistro=$("#confirmaSenhaRegistro").val();
         console.log(nome+" "+sobrenome);
         if (nome==""){
             alert("Insira o nome - campo obrigatório");
