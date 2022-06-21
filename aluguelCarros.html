@@ -101,4 +101,84 @@
             </form>
         </div>
     </nav>
+
+<!--MODAL DO LOGIN-->
+
+<div class="modal fade" id="mdLogin">
+    <div class="modal-dialog">
+    <div class="modal-content">
+    
+      <form class="modal-content animate" action="/action_page.php" method="post">
+      <div class="container">
+      <br>
+      <label class="my-lg-0 mr-sm-0" for="email2"><b>Username ou Email:</b></label>
+      <input class="my-lg-0 mr-sm-0" id="email2" type="text" style="border-radius:7px" placeholder="Enter Username" name="email2" required>
+  
+      <label class="my-lg-0 mr-sm-0" for="pwd2"><b>Senha:</b></label>
+      <input class="my-lg-0 mr-sm-0" id="pwd2" type="password" style="border-radius:7px" placeholder="Insira sua senha" name="psw" required>
+  
+      <button class="btn btn-outline-success btn-sm my-lg-2 mr-sm-2"  id="btEnviar" type="submit">Login</button>
+      <br>
+  
+      <label>
+        <input class="my-lg-2" type="checkbox" checked="checked" name="remember"> Salvar dados
+      </label>
+      <br>
+      
+      <div class="container" style="background-color:#f1f1f1">
+      <button type="button" class="btn btn-outline-danger btn-sm" data-dismiss="modal">Sair</button>
+      <a href="#"><span class="float-sm-right my-lg-0 mr-sm-0" size="8px"> Esqueci minha senha</span></a>
+      </div>
+      <br>
+    </div>
+  </form>
+  </div>
+  </div>
+  </div>
+  
+  <!--Modal de registro-->
+  <div class="modal fade" id="mdRegistro">
+    <div class="modal-dialog">
+    <div class="modal-content">
+    
+      <form class="modal-content animate" action="/action_page.php" method="post">
+      <div class="container">
+      <br>
+      <label class="my-lg-0 mr-sm-0" for="nameRegistro"><b>Nome:</b></label>
+      <input class="my-lg-0 mr-sm-0" id="nameRegistro" type="text" style="border-radius:7px" placeholder="Insira seu nome" name="nameRegistro" required>
+  
+      <label class="my-lg-0 mr-sm-0" for="lastNameRegistro"><b>Sobrenome:</b></label>
+      <input class="my-lg-0 mr-sm-0" id="lastNameRegistro" type="text" style="border-radius:7px" placeholder="Insira seu sobrenome" name="lastNameRegistro" required>
+  
+      <label class="my-lg-0 mr-sm-0" for="nascimentoRegistro"><b>Data de Nascimento</b></label>
+      <input class="my-lg-0 mr-sm-0" id="nascimentoRegistro" type="date" style="border-radius:7px" placeholder="Insira sua data de nascimento" name="nascimentoRegistro" required>
+  
+      <label class="my-lg-0 mr-sm-0" for="emailRegistro"><b>E-mail:</b></label>
+      <input class="my-lg-0 mr-sm-0" id="emailRegistro" type="text" style="border-radius:7px" placeholder="Insira seu e-mail" name="emailRegistro" required>
+  
+      <label class="my-lg-0 mr-sm-0" for="senhaRegistro"><b>Insira uma senha:</b></label>
+      <input class="my-lg-0 mr-sm-0" id="senhaRegistro" type="password" style="border-radius:7px" placeholder="Insira sua senha de 8 dígitos" name="senhaRegistro" required>
+  
+      <label class="my-lg-0 mr-sm-0" for="confirmaSenhaRegistro"><b>Confirme sua senha</b></label>
+      <input class="my-lg-0 mr-sm-0" id="confirmaSenhaRegistro" type="password" style="border-radius:7px" placeholder="Enter Username" name="confirmaSenhaRegistro" required>
+  
+      <button class="btn btn-outline-success btn-sm my-lg-2 mr-sm-2"  id="registrar" type="submit">Registrar</button>
+      <button class="btn btn-outline-warning btn-sm my-lg-2 mr-sm-2"  id="corrigir" type="submit">Corrigir</button>
+      <br>
+  
+      <label>
+        <input class="my-lg-2" type="checkbox" checked="checked" name="remember"> Salvar dados
+      </label>
+      <br>
+      
+      <div class="container" style="background-color:#f1f1f1">
+      <button type="button" class="btn btn-outline-danger btn-sm" data-dismiss="modal">Sair</button>
+      <a href="#"><span class="float-sm-right my-lg-0 mr-sm-0" size="8px"> Esqueci minha senha</span></a>
+      </div>
+      <br>
+    </div>
+  </form>
+  </div>
+  </div>
+  </div>
     <br>
