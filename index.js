@@ -251,11 +251,11 @@
     });
 
     //caixa e seleção do aluguel de carro
-    $("#selectEmpresas").click(function escolhaCarro(){
+    $("#selectEmpresas").checked(function escolhaCarro(){
         var empresa =$("#selectEmpresas").val();
         if (empresa == "Localiza"){
             
-            $("#selectModeloCarroPequeno").style.display = "block";
+            $("#selectModeloCarroPequeno").style.display = "inline";
             $("#selectModeloCarroInterme").style.display = "none";
             $("#selectModeloCarroElite").style.display = "none";
 
@@ -263,7 +263,7 @@
         if (empresa == "Movidas"){
             
             $("#selectModeloCarroPequeno").style.display = "none";
-            $("#selectModeloCarroInterme").style.display = "block";
+            $("#selectModeloCarroInterme").style.display = "inline";
             $("#selectModeloCarroElite").style.display = "none";
 
         }
@@ -271,7 +271,7 @@
             
             $("#selectModeloCarroPequeno").style.display = "none";
             $("#selectModeloCarroInterme").style.display = "none";
-            $("#selectModeloCarroElite").style.display = "block";
+            $("#selectModeloCarroElite").style.display = "inline";
 
         }
         });
