@@ -101,54 +101,60 @@
             </form>
         </div>
     </nav>
+
       <div class="container mt-3">
-        <a id="selectEmpresas">
+        
         <form action="/action_page.php">
-            <select class="custom-select mb-2 mr-sm-2">
+            <select class="custom-select" style="width:200px" id="marca">
               <option selected>Escolha uma Locadora</option>
               <option>Localiza</option>
               <option>Movidas</option>
               <option>Unidas</option>
           </select>
+          <button type="button" class="btn btn-primary" id="buscarEmpresas"><span class="material-symbols-outlined">search</span></button>
         </form>
-        </a>
         
-        <form action="/action_page.php" style="display:none" id="selectModeloCarroPequeno">
-          <select class="custom-select mb-2 mr-sm-2">
-            <option selected>Selecione um modelo de carro</option>
-            <option>Sem Ar</option>
-            <option>Com Ar e sem rádio</option>
-            <option>Kit mídia e com Ar</option>
-        </select>
-      </form>
+        <div style="display:none" id="cars1">
+          <form action="/action_page.php" id="selectModeloCarroPequeno">
+            <select class="custom-select" style="width:200px">
+              <option selected>Selecione um modelo de carro</option>
+              <option>Sem Ar</option>
+              <option>Com Ar e sem rádio</option>
+              <option>Kit mídia e com Ar</option>
+            </select>
+          </form>
+        </div>
+      
+        <div style="display:none" id="cars2">
+          <form action="/action_page.php" id="selectModeloCarroInterme">
+            <select class="custom-select" style="width:200px">
+              <option selected>Selecione um modelo de carro</option>
+              <option>Com Ar, kit mídia e sem teto solar</option>
+              <option>Com Ar, kit mídia e teto solar</option>
+              <option>Com Ar, kit mídia e teto panorâmico</option>
+            </select>
+          </form>
+        </div>
 
-      <form action="/action_page.php" style="display:none" id="selectModeloCarroInterme">
-        <select class="custom-select mb-2 mr-sm-2">
-          <option selected>Selecione um modelo de carro</option>
-          <option>Com Ar, kit mídia e sem teto solar</option>
-          <option>Com Ar, kit mídia e teto solar</option>
-          <option>Com Ar, kit mídia e teto panorâmico</option>
-      </select>
-    </form>
-
-    <form action="/action_page.php" style="display:none" id="selectModeloCarroElite">
-      <select class="custom-select mb-2 mr-sm-2">
-        <option selected>Selecione um modelo de carro</option>
-        <option>Com Ar, kit mídia e teto panorâmico</option>
-        <option>Com Ar, kit mídia, teto solar e seguro regional</option>
-        <option>Com Ar, kit mídia, teto solar e seguro nacional</option>
-    </select>
-  </form>
+        <div style="display:none" id="cars3">
+          <form action="/action_page.php" id="selectModeloCarroElite">
+            <select class="custom-select" style="width:200px">
+              <option selected>Selecione um modelo de carro</option>
+              <option>Com Ar, kit mídia e teto panorâmico</option>
+              <option>Com Ar, kit mídia, teto solar e seguro regional</option>
+              <option>Com Ar, kit mídia, teto solar e seguro nacional</option>
+            </select>
+          </form>
+        </div>
 
       <form action="/action_page.php" style="display:none" id="selectPotenciaCarro">
-        <select class="custom-select mb-2 mr-sm-2">
+        <select class="custom-select" style="width:200px">
           <option selected>Selecione uma opção</option>
           <option>Econômico</option>
           <option>Intermediário</option>
           <option>Elite</option>
       </select>
       </form>
-
       </div>
 
 <!--MODAL DO LOGIN-->
