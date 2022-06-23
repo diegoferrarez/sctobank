@@ -104,28 +104,49 @@
       <div class="container mt-3">
         <form action="/action_page.php">
             <select class="custom-select mb-2 mr-sm-2" id="selectEmpresas">
-              <option selected>Escolha uma empresa</option>
+              <option selected>Escolha uma Locadora</option>
               <option>Localiza</option>
               <option>Movidas</option>
               <option>Unidas</option>
           </select>
         </form>
-        <form action="/action_page.php">
-          <select class="custom-select mb-2 mr-sm-2" id="selectModeloCarro">
+        
+        <form action="/action_page.php" style="display:none" id="selectModeloCarroPequeno">
+          <select class="custom-select mb-2 mr-sm-2">
             <option selected>Selecione um modelo de carro</option>
-            <option>Pequeno</option>
-            <option>Médio</option>
-            <option>Grande</option>
+            <option>Sem Ar</option>
+            <option>Com Ar e sem rádio</option>
+            <option>Kit mídia e com Ar</option>
         </select>
       </form>
-      <form action="/action_page.php">
-        <select class="custom-select mb-2 mr-sm-2" id="selectPotenciaCarro">
+
+      <form action="/action_page.php" style="display:none" id="selectModeloCarroInterme">
+        <select class="custom-select mb-2 mr-sm-2">
+          <option selected>Selecione um modelo de carro</option>
+          <option>Com Ar, kit mídia e sem teto solar</option>
+          <option>Com Ar, kit mídia e teto solar</option>
+          <option>Com Ar, kit mídia e teto panorâmico</option>
+      </select>
+    </form>
+
+    <form action="/action_page.php" style="display:none" id="selectModeloCarroElite">
+      <select class="custom-select mb-2 mr-sm-2">
+        <option selected>Selecione um modelo de carro</option>
+        <option>Com Ar, kit mídia e teto panorâmico</option>
+        <option>Com Ar, kit mídia, teto solar e seguro regional</option>
+        <option>Com Ar, kit mídia, teto solar e seguro nacional</option>
+    </select>
+  </form>
+
+      <form action="/action_page.php" style="display:none" id="selectPotenciaCarro">
+        <select class="custom-select mb-2 mr-sm-2">
           <option selected>Selecione uma opção</option>
           <option>Econômico</option>
           <option>Intermediário</option>
           <option>Elite</option>
       </select>
       </form>
+
       </div>
 
 <!--MODAL DO LOGIN-->

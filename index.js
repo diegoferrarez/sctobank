@@ -249,4 +249,30 @@
         $("#senhaRegistro").val("");
         $("#confirmaSenhaRegistro").val("");
     });
-});
+
+    //caixa e seleção do aluguel de carro
+    $("#selectEmpresas").click(function escolhaCarro(){
+        var empresa =$("#selectEmpresas").val();
+        if (empresa == "Localiza"){
+            
+            $("#selectModeloCarroPequeno").style.display = "hide";
+            $("#selectModeloCarroInterme").style.display = "none";
+            $("#selectModeloCarroElite").style.display = "none";
+
+        }
+        if (empresa == "Movidas"){
+            
+            $("#selectModeloCarroPequeno").style.display = "none";
+            $("#selectModeloCarroInterme").style.display = "hide";
+            $("#selectModeloCarroElite").style.display = "none";
+
+        }
+        if (empresa == "Unidas"){
+            
+            $("#selectModeloCarroPequeno").style.display = "none";
+            $("#selectModeloCarroInterme").style.display = "none";
+            $("#selectModeloCarroElite").style.display = "hide";
+
+        }
+        });
+    });
