@@ -255,7 +255,7 @@
         var empresa =$("#selectEmpresas").val();
         if (empresa == "Localiza"){
             
-            $("#selectModeloCarroPequeno").style.display = "hide";
+            $("#selectModeloCarroPequeno").style.display = "block";
             $("#selectModeloCarroInterme").style.display = "none";
             $("#selectModeloCarroElite").style.display = "none";
 
@@ -263,7 +263,7 @@
         if (empresa == "Movidas"){
             
             $("#selectModeloCarroPequeno").style.display = "none";
-            $("#selectModeloCarroInterme").style.display = "hide";
+            $("#selectModeloCarroInterme").style.display = "block";
             $("#selectModeloCarroElite").style.display = "none";
 
         }
@@ -271,7 +271,7 @@
             
             $("#selectModeloCarroPequeno").style.display = "none";
             $("#selectModeloCarroInterme").style.display = "none";
-            $("#selectModeloCarroElite").style.display = "hide";
+            $("#selectModeloCarroElite").style.display = "block";
 
         }
         });
