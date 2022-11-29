@@ -12,34 +12,6 @@ body {
     color:#ffffff;
 }
 
-/*.a {
-    display: block;
-    padding: 8px;
-    background-color: #dddddd;
-    width: auto;
-    text-decoration: none;
-    text-align: center;
-    color: #000000;
-    padding: 14px 16px;
-
-}*/
-
-/*para mostrar qual página ele está
-.a:hover:not(.active) {
-    background-color:#808080;
-}
-
-.active111 {
-    background-color: #a52;
-    display: block;
-    padding: 8px;
-    width: auto;
-    text-decoration: none;
-    text-align: center;
-    color: #000000;
-    padding: 14px 16px;
-}*/
-
 .carousel-inner img {
     width: 750px;
     height: 450px;
